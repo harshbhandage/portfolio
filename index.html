@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title> Portflio</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+         
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"><span>HB></span>Portfolio</a>
+            <ul>
+                <li><a href="#"class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#about">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <a href="images/cv.pdf" download  class="btn-1">Download CV</a>
+            </ul>
+            
+        </header>
+        <section>
+            <img src="images/stars.png" id="stars">
+            <img src="images/moon.png" id="moon">
+            <img src="images/mountains_behind.png" id="mountains_behind">
+            <h2 id="text">Harsh B</h2>
+            <pre>    <a href="#about" id="btn">Explore</a></pre>
+            <img src="images/mountains_front.png" id="mountains_front">
+        </section>
+        
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/h3.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About <span>Me</span></h1>
+                        <p>"Hi, I'am <span>Harsh Bhandage</span> a computer science engineering student with a passion for technology and a drive to solve complex problems. My goal is to use my skills and knowledge to make a positive impact in the world through cutting-edge software and hardware solutions.
+                            <div class="tab-titles">
+                                <p class="tab-links active-link"onclick="opentab('education')">Education</p>
+                                <p class="tab-links " onclick="opentab('skills')">Skills</p>
+                            </div>
+                            
+                            <div class="tab-contents active-tab" id="education">
+                                <ul>
+                                    <li><span>2021-Current</span><br>KLS gogte institute of technology belgaum</li>
+                                    <li><span>2019-2021-postmatric</span><br>Mahathma Gandhi PU college belgaum </li>
+                                    <li><span>2009-2019-schooling</span><br>M.V herwadkar english high school belgaum</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents " id="skills">
+                                <pre>
+   <img src="images/nine.jpg">             <img src="images/eight.jpg">              <img src="images/seven.jpg">            <img src="images/6.jpg">
+            <span>HTML</span>                                   <span>CSS</span>                            <span>Data Structures</span>                  <span>JavaScript</span></pre>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+           <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Servi<span>ces</span></h1>
+                <div class="services-list">
+                    <div>
+                        <img src="images/web1.jpg" height="70px" >
+                        <h2>Web Designing</h2>
+                        <p>Responsive Design, E-commerce website Designing,Graphic Design</p>
+                        
+                    </div>
+                    <div>
+                        <img src="images/gr.png" height="70px">
+                        <h2>Graphic Designing</h2>
+                        <p>Posters, Pamplets, Invitations, Business creatives.</p>
+                        
+                    </div>
+                    <div>
+                        <img src="images/p2.jpg" height="70px">
+                        <h2>Programming</h2>
+                        <p>Languages: C, C++, Java, HTML, CSS, JavaScript</p>
+                        
+                    </div>
+        
+                </div>
+                <pre>
+
+
+
+
+                </pre>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class=""sub-title>Contact <span>Me</span></h1>
+                        <pre><i class="fa-regular fa-paper-plane"></i>  <a href="mailto:harshbhandage15@gmail.com" class="mail">harshbhandage15@gmail.com<i class="uil uil-arrow-right"></i></a>
+
+<i class="fa-solid fa-phone"></i>7337611240</pre>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/harshhh._15?igshid=ZDdkNTZiNTM="><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/harsh.adarsh.1?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/harshbhandage"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/HrshBhandage1"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your name"required>
+                            <input type="email" name="email" placeholder="Your Email"required>
+                            <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @Harsh.</p>
+            </div>
+        </div>
+           
+        <script type="text/javascript" src="js.js">
+            
+        </script>
+       
+    </body>
+</html>
